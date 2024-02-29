@@ -11,6 +11,7 @@
 		C8126A512B8D6B96008EE6AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8126A502B8D6B96008EE6AA /* ContentView.swift */; };
 		C8126A532B8D6B98008EE6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8126A522B8D6B98008EE6AA /* Assets.xcassets */; };
 		C8126A562B8D6B98008EE6AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8126A552B8D6B98008EE6AA /* Preview Assets.xcassets */; };
+		C8BAB6982B900E3A002EBD09 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BAB6972B900E39002EBD09 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C8126A502B8D6B96008EE6AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8126A522B8D6B98008EE6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8126A552B8D6B98008EE6AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8BAB6972B900E39002EBD09 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C8126A4E2B8D6B96008EE6AA /* DesignIOS15App.swift */,
 				C8126A502B8D6B96008EE6AA /* ContentView.swift */,
+				C8BAB6972B900E39002EBD09 /* Styles.swift */,
 				C8126A522B8D6B98008EE6AA /* Assets.xcassets */,
 				C8126A542B8D6B98008EE6AA /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BAB6982B900E3A002EBD09 /* Styles.swift in Sources */,
 				C8126A512B8D6B96008EE6AA /* ContentView.swift in Sources */,
 				C8126A4F2B8D6B96008EE6AA /* DesignIOS15App.swift in Sources */,
 			);
