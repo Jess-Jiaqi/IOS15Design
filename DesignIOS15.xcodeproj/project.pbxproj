@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80B08F22B91274E00E1A21C /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B08F12B91274E00E1A21C /* AccountView.swift */; };
 		C8126A4F2B8D6B96008EE6AA /* DesignIOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8126A4E2B8D6B96008EE6AA /* DesignIOS15App.swift */; };
 		C8126A512B8D6B96008EE6AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8126A502B8D6B96008EE6AA /* ContentView.swift */; };
 		C8126A532B8D6B98008EE6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8126A522B8D6B98008EE6AA /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C80B08F12B91274E00E1A21C /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		C8126A4B2B8D6B96008EE6AA /* DesignIOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignIOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8126A4E2B8D6B96008EE6AA /* DesignIOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignIOS15App.swift; sourceTree = "<group>"; };
 		C8126A502B8D6B96008EE6AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				C8126A4E2B8D6B96008EE6AA /* DesignIOS15App.swift */,
 				C8126A502B8D6B96008EE6AA /* ContentView.swift */,
+				C80B08F12B91274E00E1A21C /* AccountView.swift */,
 				C8BAB6972B900E39002EBD09 /* Styles.swift */,
 				C8126A522B8D6B98008EE6AA /* Assets.xcassets */,
 				C8126A542B8D6B98008EE6AA /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80B08F22B91274E00E1A21C /* AccountView.swift in Sources */,
 				C8BAB6982B900E3A002EBD09 /* Styles.swift in Sources */,
 				C8126A512B8D6B96008EE6AA /* ContentView.swift in Sources */,
 				C8126A4F2B8D6B96008EE6AA /* DesignIOS15App.swift in Sources */,
