@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  DesignIOS15
 //
-//  Created by Jiaqi Li on 2/26/24.
+//  Created by Jiaqi Li on 3/8/24.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8.0) {
             Spacer()
@@ -53,11 +53,9 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 230)
                 .offset(x: 40, y:-90)
-        )
-        
-    }
+        )    }
 }
 
 #Preview {
-    ContentView()
+    HomeView()
 }

@@ -56,13 +56,13 @@ struct AccountView: View {
     
     var menu: some View{
         Section {
-            NavigationLink { ContentView() } label: {
+            NavigationLink { HomeView() } label: {
                 Label("Setting", systemImage: "gear")
             }
-            NavigationLink { ContentView() } label: {
+            NavigationLink { HomeView() } label: {
                 Label("Billing", systemImage: "creditcard")
             }
-            NavigationLink { ContentView() } label: {
+            NavigationLink { HomeView() } label: {
                 Label("Help", systemImage: "questionmark")
             }
         }
